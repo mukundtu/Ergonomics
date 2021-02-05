@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Inter', sans-serif;
+}
+
+.col-sm-4{
+    color: black;
+    background-color:yellowgreen;
+    height: 100vh;
+    margin:0;
+    padding:0;
+
+}
