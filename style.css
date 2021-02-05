@@ -9,11 +9,10 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-.col-sm-4{
-    color: black;
+#a{
+    color: rgb(15, 15, 15);
     background-color:yellowgreen;
     height: 100vh;
-    margin:0;
-    padding:0;
+   
 
 }
