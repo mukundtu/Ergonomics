@@ -6,9 +6,9 @@
 body{
     margin:0;
     padding:0;
-    border:0;
+    
     font-family: 'Inter', sans-serif;
-    overflow: hidden;
+    
 }
 
 #a{
@@ -20,5 +20,6 @@ body{
 }
 #b{
     padding-left:50px;
+    padding-right:0;
     
 }
