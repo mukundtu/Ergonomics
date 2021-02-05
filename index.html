@@ -13,16 +13,16 @@
 <body>
     <div class="container-fluid">
         <!-- Left side container -------->
-        <div class="row">
+        <div class="column">
              
           
                 <div class="col-sm-3 col-md-6 col-lg-4" id="a">
-                    <h1>Hare KRISHNAA... </h1>
+                    <h1>AIIMS Delhi </h1>
                 </div>
 
             
-           
-        
+        </div>  
+        <div class="column">
          <!-- Right side container -------->
         
             <div class="col-sm-9 col-md-6 col-lg-8" id="b">
@@ -77,17 +77,89 @@
 
                     <div class="row">
                         <div class="col-sm-4 col-md-3 col-lg-4">
-                            <label for="gender">Gender of the Child</label>
-                            <input type="text" name="mname" id="mname" class="form-control is-invalid">
-        
+                             <label for="gender">Gender</label>
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-6" id="g">
+                                        <input type="radio" name="gender" id="male" value="male" checked>
+                                        <label for="male">Male</label>
+                                        <input type="radio" name="gender" id="female" value="female">
+                                        <label for="female">Female</label>
+                                    </div>
+                                 </div>
                         </div>
                         <div class="col-sm-4 col-md-3 col-lg-4">
                             <label for="res">Resident Address</label>
                             <input type="text" name="res" id="res" class="form-control is-invalid">
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 col-md-3 col-lg-4">
+                            <label for="no">Phone number <span>(Preferably WhatsApp)</span>   </label>
+                            <input type="number" name="no" id="no" class="form-control is-invalid">
+        
+                        </div>
+                        <div class="col-sm-4 col-md-3 col-lg-4">
+                            <label for="email">Email Id.</label>
+                            <input type="email" name="email" id="email" class="form-control is-invalid" placeholder="khana@gmail.com" required>
+        
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 col-md-3 col-lg-4">
+                            <label for="sec">Class and Section</label>
+                            <input type="text" name="sec" id="sec" class="form-control is-invalid">
+        
+                        </div>
+                        <div class="col-sm-4 col-md-3 col-lg-4">
+                            <label for="sname">School Name</label>
+                            <input type="text" name="sname" id="sname" class="form-control is-invalid" >
         
                         </div>
                         
                     </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 col-md-3 col-lg-4">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6 col-lg-6" id="g">
+                                        <label for="Height">Height</label>
+                                        <input type="number" name="Height" id="Height" value="Height" placeholder=cm>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6 col-lg-6" id="g">
+                                        <label for="Weight">Weight</label>
+                                        <input type="text" name="Weight" id="Weight" value="Weight" placeholder="kg">
+
+                                    </div>
+                                        
+                                 </div>
+                            
+                        </div>
+
+
+                        <div class="col-sm-4 col-md-3 col-lg-4">
+                             <label for="gender">Hand Dominance</label>
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6 col-lg-6" id="g">
+                                        
+                                        <input type="radio" name="gender" id="male" value="male" checked>
+                                        <label for="male">Right</label>
+                                        
+                                        <input type="radio" name="gender" id="female" value="female">
+                                        <label for="female">Left</label>
+                                    </div>
+                                 </div>
+                        </div>
+                        
+
+                    </div>
+
+                    
+
+
+
 
 
 
